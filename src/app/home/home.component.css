@@ -1,0 +1,174 @@
+/* Style the header */
+.header {
+  background:#2874EE;
+  color: #f1f1f1;
+  width: 100%;
+  height: 60px;
+}
+.flipkart_name {
+  width: 80px;
+  margin-left: 180px;
+  padding-top: 10px;
+  float: left;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.search-container {
+  float: left;
+  height: 38px;
+  width: 650px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+#search_logo{
+  float: left;
+  margin-left:670px;
+  margin-bottom:20px;
+  width: 17px;
+}
+.src_box{
+width: 600px;
+float: right;
+}
+input[type=text], select {
+  width: 600px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.menuItemsii{
+  font-family: 'Archivo';font-size: 16px;
+  padding: 20px 60px;
+  color: white;
+  font-size: 15px;
+}
+#login{
+    color: white;
+    text-decoration-line: none;
+    padding-left: 35px;
+}
+#more{
+    color: white;
+    text-decoration-line: none;
+    padding-left: 45px;
+}
+#cart{
+    color: white;
+    text-decoration-line: none;
+    padding-left: 4px;
+}
+
+i{
+  padding-left: 2px;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+/* Body of home page is started */
+/* .row
+{
+  width: 100%;
+  height:40px;
+  background-color: #fff;
+  box-shadow: 0px 4px 3px #888888;
+  margin: 0px;
+  font-family: 'Archivo';font-size: 6px bold;
+} */
+/* .col_1_dropdownContent{
+  padding-left: 20px;
+  float:left;
+  width: 25%;
+
+} */
+.navbar {
+  overflow:hidden;
+  width: 100%;
+  height:60px;
+  background-color: #fff;
+  box-shadow: 0px 4px 3px #888888;
+  margin: 0px;
+  font-family: 'Archivo';font-size: 6px bold;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+
+}
+.dropbtn{
+  padding: 5px 8px;
+}
+.dropdown-content{
+  margin-top: 0px;
+}
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  margin:20px 130px;
+}
+
+.gallery:hover {
+  /* border: 1px solid #777; */
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  position:
+}
+.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+#animationTocamera:hover, #animationTosmartphone:hover,  #animationTosmartwatch:hover{
+  animation: shake 0.5s;
+  animation-iteration-count:0.5s;
+}
+#animationTocamera{
+  height: 250px;
+  width: 260px;
+}
+
+/* Image Animation formula */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
