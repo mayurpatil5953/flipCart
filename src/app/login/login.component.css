@@ -29,6 +29,11 @@ body{
        padding-right:30px;
        padding-left:30px;
      }
+     #signup{
+         color: white;
+         text-decoration-line: none;
+         padding-left: 35px;
+     }
 
 
      .input-item{
