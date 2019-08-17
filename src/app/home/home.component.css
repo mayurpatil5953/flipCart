@@ -1,9 +1,31 @@
 /* Style the header */
-.header {
+header {
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    position:fixed;
+
+    z-index: 1;
+}
+#top-nav {
+    width: 100%;
+    height: 8%;
+    padding-bottom: 10px;
+    /* overflow: hidden; */
+    position: fixed;
+
+
+}
+.homeimg{
+  padding-top:125px;
+}
+
+.section{
   background:#2874EE;
   color: #f1f1f1;
   width: 100%;
   height: 60px;
+
 }
 .flipkart_name {
   width: 80px;
