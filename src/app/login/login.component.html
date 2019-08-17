@@ -1,25 +1,34 @@
 <form id="form" method="GET">
-  <div class="row">
-    <div class="column" style="background-color:#047BD5;">
-      <h2 style="margin-top:5px;">Login</h2>
-      <div id="fontstyle">
-        <p> Get access  to your Orders,<br>Wishlist and Recommendations</p>
-      </div>
+     <div class="row">
+       <div class="column" style="background-color:#047BD5;">
+         <h2 style="margin-top:5px;">Login</h2>
+         <div id="fontstyle">
+           <p> Get access  to your Orders,<br>Wishlist and Recommendations</p>
+         </div>
 
-        <img src="assets/product.gif" alt="shopping-items" width="80%" height="250px"  filter="alpha(opacity=0.2)">
-    </div>
 
-    <div class="column">
-      <input class="input-item" placeholder="Enter Email/mobile number"  type="Enter Email/mobile number" name="Enter Email/mobile number" required> <br>
-      <input class="input-item" placeholder=" Enter Password" maxlength="8"  type="Enter password" name="Enter password" required>
-      <span style="text-align:right;">Forgot?</span>
-      <input class="submit" type="submit" value="Login"> <br><br>
-      <h2 style="text-align: center;font-size:12px;color:black;">OR</h2>
-      <input class="otp" type="Request OTP" name="Request OTP" value="Request OTP">
-      <br><br><br><br><br>
-      <h2 style="text-align: center;font-size:12px;color:blue;"> New to Flipkart?Create an account</h2>
+           <img src="/assets/gif/product.gif"alt="shopping-items" width="80%" height="250px"  filter="alpha(opacity=0.2)">
 
-    </div>
 
-  </div>
-</form>
+
+       </div>
+
+
+
+       <div class="column">
+         <input class="input-item" placeholder="Enter Email/mobile number"  type="Enter Email/mobile number" name="Enter Email/mobile number" required> <br>
+         <input class="input-item" placeholder=" Enter Password" maxlength="8"  type="Enter password" name="Enter password" required>
+         <span style="text-align:right;">Forgot?</span>
+         <input class="submit" type="submit" value="Login"> <br><br>
+         <h2 style="text-align: center;font-size:12px;color:black;">OR</h2>
+         <button  class="otp" type="Request OTP" name="Request OTP">Request OTP</button>
+         <br><br><br><br><br>
+         <a routerLink="/signup" id="signup">
+
+         <h2 style="text-align: center;font-size:12px;color:blue;"> New to Flipkart?Create an account</h2>
+
+</a>
+       </div>
+
+     </div>
+   </form>

@@ -52,6 +52,9 @@ input[type=text], select {
   color: white;
   font-size: 15px;
 }
+a{
+  text-decoration: none;
+}
 #login{
     color: white;
     text-decoration-line: none;
