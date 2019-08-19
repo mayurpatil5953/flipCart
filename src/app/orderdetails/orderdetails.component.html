@@ -20,7 +20,6 @@
     <!-- Menus -->
     <div class="menuItemsii">
       <a routerLink="/login" id="login">Login & Sign Up</a>
-<!-- <a routerLink="/signup" id="signup">Login & Sign Up</a> -->
       <a id="more" href="url">More</a>
       <i class="fas fa-angle-down"></i>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-shopping-cart"></i>
@@ -45,41 +44,18 @@
 </div>
 </header>
 
+  <form id="form" method="GET">
 
-    <div class="homeimg">
-    <a target="_blank" href="\">
-    <img src="\assets\images\home.png" alt="HomeImage" width="100%">
-    </a>
-    </div>
-    <hr>
+  <input class="input-item" type ="text" placeholder="name" type="name">
+  <input class="input-item" type="phoneNumber" name="Phonenumber" placeholder="phone Number"> <br>
+  <input class="input-item" type ="pincode" name="pincode" placeholder="pin code">
+  <input class="input-item" type="locality" name="locality" placeholder="Locality"><br>
+<input class="input-item" type="city/District"name="city/District"placeholder="city/District">
+  <textarea rows="4" cols="50" placeholder="Address">
+</textarea> <br>
 
-    <div class="gallery">
-      <a routerLink="/products"><a href="/products/camera.png">
-      <img id="animationTocamera" src="\assets\images\camera.png" alt="Camera" width="800" height="800"></a>
+  <h4> Address Type</h4><br>
+  <input  class="rbtn" type="radio" name="home(ALL day delivery)" id="home(ALL day delivery)" value="home(ALL day delivery)"><br><br>
+<input class="btn" type="submit" value="save and delivery here">
 
-      <div class="desc">
-    <b>&nbsp;&nbsp;&nbsp;&nbsp;Top 10 DSLR's</b>
-    &nbsp;&nbsp;&nbsp;&nbsp;From &#8377; 18999
-
-      </div>
-      </a>
-    </div>
-
-    <div class="gallery">
-    <a routerLink="/products"><a href="/products/smartphone.png">
-      <img id="animationTosmartphone" src="\assets\images\smartphone.png" alt="Smartphone" width="600" height="400"></a>
-    <div class="desc">
-        <b>Top 10 Smartphones</b>
-      &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">From &#8377; 9999</a>
-      </div></a>
-    </div>
-
-    <div class="gallery">
-    <a routerLink="/products"><a href="/products/smartwatch.jpeg">
-      <img id="animationTosmartwatch" src="\assets\images\smartwatch.jpeg" alt="Smartwatch" width="600" height="400"></a>
-      <div class="desc">
-        <b>Smartwatches</b>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">From &#8377; 5499</a>
-      </div>
-      </a>
-    </div>
+</form>
