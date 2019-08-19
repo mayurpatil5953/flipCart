@@ -196,17 +196,17 @@ i{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 } */
 
-#p1
+.Model1_div
 {
-
   padding-top: 140px;
-  height: 400px;
-  width: 1800px;
+  height: 300px;
+  width: 100%;
 }
 
 td{
-padding-left: 40px;
-padding-right: 40px;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
 
 }
 h1{
@@ -218,49 +218,33 @@ h1{
   font-size:15px;
   width:auto;
 }
-.cart-button{
-  padding: 9px 15px 9px;
-   border: 0px;
-   border-radius: 4px;
-
-   font-size: 18px;
-   font-weight: bold;
-   color: white;
-   width:90px;
-   height:50px;
-   background-color:orange;
-
-}
 
 .buy-button{
-  padding: 9px 15px 9px;
+   padding: 9px 15px 9px;
+   margin-left: 13px;
    border: 0px;
    border-radius: 4px;
-   width:90px;
-   height:50px;
+   width:200px;
+   opacity: 0.9;
+   height:40px;
    font-size: 18px;
    font-weight: bold;
    color: white;
- background-color:#FF4500;
-
+   background-color:#FF4500;
+}
+#emi1
+{
+  font-size: 12px;
 }
 
-
-#p2{
-  padding-top:50px;
-  height:400px;
-  width:400px;
-}
-#p3{
-  padding-top:50px;
-  height:400px;
-  width:400px;
+.Model2_div{
+  height: 400px;
+  width: 100%;
 }
 
 #pic1
 {
   width: 220px;
-
 }
 #pic2
 {

@@ -68,13 +68,11 @@ img {
 width: 600px;
 float: right;
 }
-input[type=text], select {
-  width: 600px;
-  padding: 12px 20px;
-  display: inline-block;
+input[type=text] {
+  width: 340px;
+  padding: 12px 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
 }
 
 .menuItemsii{
@@ -121,22 +119,7 @@ i{
 .sticky + .content {
   padding-top: 102px;
 }
-/* Body of home page is started */
-/* .row
-{
-  width: 100%;
-  height:40px;
-  background-color: #fff;
-  box-shadow: 0px 4px 3px #888888;
-  margin: 0px;
-  font-family: 'Archivo';font-size: 6px bold;
-} */
-/* .col_1_dropdownContent{
-  padding-left: 20px;
-  float:left;
-  width: 25%;
 
-} */
 .navbar {
   overflow:hidden;
   width: 100%;
@@ -209,17 +192,19 @@ position: fixed;
        display:table;
        clear:both;
 
+
      }
      .column{
        color:white;
        float: left;
        width:50%;
-
-       height:500px;
+       height:400px;
        padding-top:60px;
        padding-bottom:10px;
        padding-right:30px;
        padding-left:30px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
      }
      #signup{
          color: white;
@@ -229,15 +214,9 @@ position: fixed;
 
 
      .input-item{
-
        font-size: 18px;
-       padding-bottom: 12px;
        margin-bottom:36px;
-       border-top:0px;
-       border-left:0;
-       border-right:0;
-       border-bottom: 1px solid #ccc;
-       width:100%;
+       width:50%;
      }
      .submit{
        width: 100%;
@@ -250,19 +229,8 @@ position: fixed;
        color:white;
        border: none;
      }
-     .otp{
-       width: 100%;
-       background-color:white;
-       color:blue;
+     .newTo{
        text-align: center;
-       font-size: 25px;
-       padding-top: 12px;
-       padding-right: 30px;
-       padding-bottom:  12px;
-       padding-left:  30px;
-       border-shadow:2px 2px 2px;
-
-
-
-
+       font-size:16px;
+       color:blue;
      }

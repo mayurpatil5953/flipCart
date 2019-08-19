@@ -1,5 +1,3 @@
-
-
 <header>
 <div id="top-nav">
 <div class="main">
@@ -20,11 +18,7 @@
     </div>
     <!-- Menus -->
     <div class="menuItemsii">
-      <a routerLink="/login" id="login">Login & Sign Up</a>
-      <a id="more" href="url">More</a>
-      <i class="fas fa-angle-down"></i>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-shopping-cart"></i>
-      <a id="cart" href="url">Cart</a>
+    
     </div>
 
   </div>
@@ -44,20 +38,17 @@
 </div>
 </div>
 </header>
-
-
-
-
+<!-- Sign Up division -->
 <div class="signup-content">
-	<form id="form" method="GET">
-<div class="row">
-<div class="column" style="background-color:#047BD5;">
-<h2 style="margin-top:5px; font-size: 25px;">signup</h2>
-	<div id="fontstyle">
+<form id="form" method="GET">
+  <div class="row">
+    <div class="column" style="background-color:#047BD5;">
+      <h2 style="margin-top:5px; font-size: 25px;">Signup</h2>
+	 <div id="fontstyle">
   <p style="padding-top:15px;">We do not share your personal details with anyone.</p>
 </div>
 
-  	<img src="/assets/gif/product.gif"alt="shopping-items" width="80%" height="250px" opacity= "-1.2">
+  	<img src="/assets/gif/product.gif"alt="shopping-items" width="60%" height="250px" opacity= "-1.2">
 
 
   </div>
@@ -65,17 +56,18 @@
 
 
 <div class="column">
-	<input class="input-item" placeholder="Firstname" type="Firstname" name="Firstname">
-	<input class="input-item" placeholder="Lastname" type="Lastname" name="Lastname">
-	<input  class="input-item" placeholder="mm-dd-yyyy" type="date" name="bday">
-	<input class="input-item" placeholder="Mobile number" type="Mobile number" name="mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="[0-9]{10}"   required>
-	<input class="input-item" placeholder=" Email" type="Email" name=" Email" required>
-<input class="input-item" placeholder="Password" maxlength="8"  type=" password" name="password" required>
-<input class="input-item" placeholder="Confirm Password" maxlength="8"  type="Confirm password" name="Confirm password" required>
-<input class="button" type="button" value="Signup"> <br><br>
-<a routerLink="/login" id="login">
-<button  class="existing" type="Existing User?Log in" name="Existing User?Log in">Existing User?Log in</button>
-</a>
+    	<input class="input-item" placeholder="Firstname" type="text" name="Firstname">
+    	<input class="input-item" placeholder="Lastname" type="text" name="Lastname">
+    	<input  class="input-item" placeholder="DD-MM-YYYY" type="date" name="bday">
+    	<input class="input-item" placeholder="Mobile number" type="number" name="mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="[0-9]{10}"required>
+    	<input class="input-item" placeholder=" Email" type="email" name=" Email" required>
+      <input class="input-item" placeholder="Password" maxlength="8"  type="password" name="password" required>
+      <input class="input-item" placeholder="Confirm Password" maxlength="8"  type="password" name="Confirm password" required>
+      <input class="button" type="button" value="Signup"> <br><br>
+
+      <a routerLink="/login" id="login">
+           <div class="Existing"> Existing User?Log in</div>
+      </a>
   </div>
 
 </div>
