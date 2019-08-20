@@ -113,22 +113,7 @@ i{
 .sticky + .content {
   padding-top: 102px;
 }
-/* Body of home page is started */
-/* .row
-{
-  width: 100%;
-  height:40px;
-  background-color: #fff;
-  box-shadow: 0px 4px 3px #888888;
-  margin: 0px;
-  font-family: 'Archivo';font-size: 6px bold;
-} */
-/* .col_1_dropdownContent{
-  padding-left: 20px;
-  float:left;
-  width: 25%;
 
-} */
 .navbar {
   overflow:hidden;
   width: 100%;
@@ -171,36 +156,12 @@ i{
   position:
 }
 
-
-/* #animationTocamera:hover, #animationTosmartphone:hover,  #animationTosmartwatch:hover{
-  animation: shake 0.5s;
-  animation-iteration-count:0.5s;
-}
-#animationTocamera{
-  height: 250px;
-  width: 260px;
-} */
-
-/* Image Animation formula */
-/* @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-} */
-
 .Model1_div
 {
   padding-top: 140px;
-  height: 300px;
+  height: 450px;
   width: 100%;
+  margin-left: 50px;
 }
 
 td{
@@ -222,6 +183,7 @@ h1{
 .buy-button1{
    padding: 9px 15px 9px;
    margin-left: 13px;
+   margin-top: 10px;
    border: 0px;
    border-radius: 4px;
    width:200px;
@@ -235,6 +197,7 @@ h1{
 .buy-button2{
    padding: 9px 15px 9px;
    margin-left: 13px;
+   margin-bottom: 20px;
    margin-top: 10px;
    border: 0px;
    border-radius: 4px;
@@ -250,19 +213,23 @@ h1{
 #emi1
 {
   font-size: 12px;
+  margin-left: 50px;
 }
 
 .Model2_div{
-  height: 300px;
   width: 100%;
+  padding-top: 40px;
+  height: 500px;
+  margin-left: 50px;
 }
 
 #pic1
 {
-  width: 220px;
+  width: 150px;
+  margin: 10px 40px;
 }
 #pic2
 {
-  width: 200px;
-  padding-bottom: 15px;
+  width: 150px;
+  margin: 10px 40px;
 }
