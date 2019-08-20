@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ProductsComponent } from './products/products.component';
 import { OrderdetailsComponent } from './orderdetails/orderdetails.component';
+import { PhonelistComponent } from './phonelist/phonelist.component';
 
 
 
@@ -19,6 +20,7 @@ import { OrderdetailsComponent } from './orderdetails/orderdetails.component';
     SignupComponent,
     ProductsComponent,
     OrderdetailsComponent,
+    PhonelistComponent,
 
   ],
   imports: [
