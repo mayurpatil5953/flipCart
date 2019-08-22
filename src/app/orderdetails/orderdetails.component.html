@@ -1,7 +1,6 @@
-
 <header>
+  <div class="main">
 <div id="top-nav">
-<div class="main">
   <div class="section" id="myHeader">
     <div class="flipkart_name">
       <img src="\assets\images\flipkart_name.png" width="246px" height="66px" alt="flipkart_name" >
@@ -27,35 +26,44 @@
     </div>
 
   </div>
-      <div class="navbar">
-          <div class="dropdown">
-            <div class="dropbtn">Electonics
-              <i class="fa fa-caret-down"></i>
-              <br>
-            </div>
-              <div class="dropdown-content">
-                  <a href="#">Camera &nbsp;&nbsp;|</a>
-                  <a href="#">Smartphones&nbsp;&nbsp; |</a>
-                  <a href="#">Smartwatches</a>
-              </div>
-          </div>
-    </div>
 </div>
 </div>
 </header>
 
-  <form id="form" method="GET">
 
-  <input class="input-item" type ="text" placeholder="name" type="name">
-  <input class="input-item" type="phoneNumber" name="Phonenumber" placeholder="phone Number"> <br>
-  <input class="input-item" type ="pincode" name="pincode" placeholder="pin code">
-  <input class="input-item" type="locality" name="locality" placeholder="Locality"><br>
-<input class="input-item" type="city/District"name="city/District"placeholder="city/District">
-  <textarea rows="4" cols="50" placeholder="Address">
-</textarea> <br>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
 
-  <h4> Address Type</h4><br>
-  <input  class="rbtn" type="radio" name="home(ALL day delivery)" id="home(ALL day delivery)" value="home(ALL day delivery)"><br><br>
-<input class="btn" type="submit" value="save and delivery here">
+        <div class="row">
+          <div class="col-50">
+            <h3>Delivery Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your firstname">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email address">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Street name here">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city">
 
-</form>
+            <div class="row2">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Enter your email address here">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="Zip code">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a routerLink="/orderplaced"><input id="btncont" type="submit" value="Place order" class="btn"></a>
+
+      </form>
+    </div>
+  </div>
+</div>

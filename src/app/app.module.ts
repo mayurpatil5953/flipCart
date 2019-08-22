@@ -10,6 +10,7 @@ import { ProductsComponent } from './products/products.component';
 import { OrderdetailsComponent } from './orderdetails/orderdetails.component';
 import { PhonelistComponent } from './phonelist/phonelist.component';
 import { WatchlistComponent } from './watchlist/watchlist.component';
+import { OrderplacedComponent } from './orderplaced/orderplaced.component';
 
 
 
@@ -23,6 +24,7 @@ import { WatchlistComponent } from './watchlist/watchlist.component';
     OrderdetailsComponent,
     PhonelistComponent,
     WatchlistComponent,
+    OrderplacedComponent,
 
   ],
   imports: [
