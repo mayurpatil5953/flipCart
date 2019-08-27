@@ -205,6 +205,18 @@ clear:both;
 
 
 }
+.column1{
+color:white;
+float: left;
+width:50%;
+height:500px;
+padding-top:20px;
+padding-bottom:10px;
+padding-right:30px;
+padding-left:30px;
+border: 1px solid #ccc;
+border-radius: 8px 8px 8px 50px;
+}
 .column{
 color:white;
 float: left;
@@ -216,7 +228,6 @@ padding-right:30px;
 padding-left:30px;
 border: 1px solid #ccc;
 }
-
 
 .input-item{
 font-size: 16px;
@@ -235,7 +246,9 @@ padding-right:30px;
 margin-top: 18px;
 font-size: 20px;
 color:white;
+border-radius: 4px;
 border: none;
+
 }
 .Existing{
  color:blue;
